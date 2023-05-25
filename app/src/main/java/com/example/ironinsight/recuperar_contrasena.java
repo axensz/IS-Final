@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class cambiar_contrasena extends AppCompatActivity {
+public class recuperar_contrasena extends AppCompatActivity {
     private EditText editTextContraseñaNueva, editTextContraseñaNueva2, editTextCodigo;
 
     @Override
