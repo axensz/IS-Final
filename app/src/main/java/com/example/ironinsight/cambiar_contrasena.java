@@ -20,5 +20,16 @@ public class cambiar_contrasena extends AppCompatActivity {
         editTextContraseñaNueva = findViewById(R.id.editTextTextPassword5);
         editTextRepetirContraseña = findViewById(R.id.editTextTextPassword6);
     }
-    
+
+    public void regresar(View view) {
+        Intent i = new Intent(this, recuperar_contrasena.class);
+        startActivity(i);
+    }
+
+    public void actualizar(View view) {
+        // Obtener los valores ingresados en los EditText
+        String contraseñaActual = editTextContraseñaActual.getText().toString();
+        String contraseñaNueva = editTextContraseñaNueva.getText().toString();
+        String repetirContraseña = editTextRepetirContraseña.getText().toString();
+    }
 }
