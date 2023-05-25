@@ -29,14 +29,16 @@
         android:background="@drawable/custom_button"
         android:backgroundTint="#5F68C1"
         android:fontFamily="@font/montserrat"
+        android:onClick="actualizar"
         android:text="Actualizar"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        android:onClick="actualizar"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
 
     <TextView
         android:id="@+id/textView3"
@@ -76,6 +78,7 @@
         android:id="@+id/editTextTextPassword6"
         android:layout_width="300dp"
         android:layout_height="52dp"
+        android:layout_marginTop="488dp"
         android:background="@drawable/edittext_border"
         android:backgroundTint="#5F68C1"
         android:ems="10"
@@ -85,12 +88,12 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rectangleView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -116,7 +119,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/lalezar"
         android:text="IronInsight"
         android:textColor="#FFFFFF"
@@ -144,13 +147,13 @@
         android:id="@+id/rectangleView"
         android:layout_width="290dp"
         android:layout_height="2dp"
+        android:layout_marginTop="584dp"
         android:background="#5F68C1"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword6"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
