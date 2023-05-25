@@ -55,27 +55,12 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_light"
         android:inputType="textPassword"
+        android:onClick="Rutinas"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="422dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="152dp"
-        android:layout_height="136dp"
-        android:background="@drawable/edittext_border"
-        android:backgroundTint="#5F68C1"
-        android:ems="10"
-        android:fontFamily="@font/montserrat_light"
-        android:inputType="textPassword"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="12sp"
-        tools:ignore="DuplicateClickableBoundsCheck"
-        tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="422dp" />
 
     <EditText
@@ -87,10 +72,13 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_light"
         android:inputType="textPassword"
+        android:onClick="ver_progreso"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="229dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword5"
         tools:layout_editor_absoluteY="422dp" />
 
     <EditText
@@ -135,6 +123,7 @@
         android:id="@+id/imageView2"
         android:layout_width="115dp"
         android:layout_height="97dp"
+        android:onClick="Rutinas"
         app:srcCompat="@drawable/carpeta__1_"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="440dp" />
@@ -143,8 +132,11 @@
         android:id="@+id/imageView3"
         android:layout_width="115dp"
         android:layout_height="97dp"
+        android:onClick="ver_progreso"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword3"
         app:srcCompat="@drawable/grafico_circular"
-        tools:layout_editor_absoluteX="243dp"
         tools:layout_editor_absoluteY="440dp" />
 
     <EditText
@@ -156,6 +148,7 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_light"
         android:inputType="textPassword"
+        android:onClick="perfil"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
@@ -167,6 +160,7 @@
         android:id="@+id/imageView4"
         android:layout_width="115dp"
         android:layout_height="97dp"
+        android:onClick="perfil"
         app:srcCompat="@drawable/usuario"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="644dp" />
