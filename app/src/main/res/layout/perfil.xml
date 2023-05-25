@@ -100,8 +100,8 @@
         android:text="CERRAR SESION"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="720dp" />
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="675dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword11"
