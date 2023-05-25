@@ -14,7 +14,7 @@ public class cambiar_contrasena extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.cambiar_contrasena);
 
         editTextContraseñaActual = findViewById(R.id.editTextTextPassword2);
         editTextContraseñaNueva = findViewById(R.id.editTextTextPassword5);
