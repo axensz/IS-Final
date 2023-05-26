@@ -17,4 +17,9 @@ public class iniciar_sesion extends AppCompatActivity {
         Intent i = new Intent(this, home.class);
         startActivity(i);
     }
+
+    public void recuperarcontraseña(View view) {
+        Intent i = new Intent(this, recuperar_contrasena.class);
+        startActivity(i);
+    }
 }

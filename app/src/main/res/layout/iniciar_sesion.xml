@@ -109,6 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="¿Olvidaste tu contraseña?"
+        android:onClick="recuperarcontraseña"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/rectangleView10"
         app:layout_constraintEnd_toEndOf="parent"
