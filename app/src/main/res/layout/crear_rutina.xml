@@ -3,16 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="413dp"
-        android:layout_height="889dp"
-        android:background="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/editTextTextPassword29"
@@ -23,6 +16,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -41,6 +35,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -94,6 +89,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -120,6 +116,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -172,6 +169,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -238,6 +236,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Aceptar"
+            android:onClick="rutinas"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -255,6 +254,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_light"
             android:hint="Nombre Ejercicio"
+            android:onClick="ejercicio"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -297,6 +297,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/screenshot_2"
+            android:onClick="regresar2"
             android:contentDescription="@string/app_name"
             tools:ignore="DuplicateSpeakableTextCheck"
             tools:layout_editor_absoluteX="21dp"
@@ -319,5 +320,4 @@
             tools:layout_editor_absoluteX="246dp"
             tools:layout_editor_absoluteY="445dp" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

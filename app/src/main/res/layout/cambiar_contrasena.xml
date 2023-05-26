@@ -135,7 +135,7 @@
         android:layout_height="35dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/screenshot_2"
-        android:onClick="regresar"
+        android:onClick="volver1"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"

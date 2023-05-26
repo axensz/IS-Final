@@ -109,16 +109,6 @@
         tools:layout_editor_absoluteX="167dp"
         tools:layout_editor_absoluteY="4dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:background="@drawable/screenshot_2"
-        android:contentDescription="@string/app_name"
-        tools:ignore="DuplicateSpeakableTextCheck"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="37dp" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="115dp"

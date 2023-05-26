@@ -85,6 +85,7 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:background="@drawable/screenshot_2"
+            android:onClick="regresar3"
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="28dp" />
 
@@ -96,6 +97,7 @@
             android:backgroundTint="#5F68C1"
             android:fontFamily="@font/montserrat"
             android:text="Agregar Rutina"
+            android:onClick="crearrutina"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             tools:layout_editor_absoluteX="138dp"

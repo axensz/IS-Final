@@ -87,6 +87,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:background="@drawable/screenshot_2"
+        android:onClick="volver"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="28dp" />
 
@@ -98,6 +99,7 @@
         android:backgroundTint="#5F68C1"
         android:fontFamily="@font/montserrat"
         android:text="CERRAR SESION"
+        android:onClick="cerrarsesion"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="138dp"
@@ -150,6 +152,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter"
         android:text="¿Deseas cambiar tu contraseña?"
+
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         tools:layout_editor_absoluteX="104dp"
@@ -161,6 +164,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter"
         android:text="Cambiar contraseña"
+        android:onClick="cambiarcontraseña"
         android:textColor="#FFFFFF"
         android:textFontWeight="700"
         android:textSize="14sp"

@@ -16,10 +16,6 @@ public class home extends AppCompatActivity {
         setContentView(R.layout.home);
     }
 
-    public void regresar(View view) {
-        Intent i = new Intent(this, recuperar_contrasena.class);
-        startActivity(i);
-    }
     public void Rutinas(View view) {
         Intent i = new Intent(this, rutinas.class);
         startActivity(i);

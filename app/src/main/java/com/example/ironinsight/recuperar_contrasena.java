@@ -22,11 +22,13 @@ public class recuperar_contrasena extends AppCompatActivity {
     }
 
     public void regresar(View view) {
-        Intent i = new Intent(this, activity_main.class);
+        Intent i = new Intent(this,iniciar_sesion.class);
         startActivity(i);
     }
 
     public void actualizar(View view) {
+        Intent i = new Intent(this,iniciar_sesion.class);
+        startActivity(i);
         // Obtener los valores ingresados en los EditText
         String contraseñaNueva = editTextContraseñaNueva.getText().toString();
         String contraseñaNueva2 = editTextContraseñaNueva2.getText().toString();

@@ -21,7 +21,7 @@ public class cambiar_contrasena extends AppCompatActivity {
         editTextRepetirContraseña = findViewById(R.id.editTextTextPassword6);
     }
 
-    public void regresar(View view) {
+    public void volver1(View view) {
         Intent i = new Intent(this, recuperar_contrasena.class);
         startActivity(i);
     }

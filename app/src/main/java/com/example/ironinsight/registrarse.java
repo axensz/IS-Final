@@ -6,20 +6,21 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ver_progreso extends AppCompatActivity {
+public class registrarse extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ver_progreso);
+        setContentView(R.layout.registrarse);
     }
 
-    public void regresar7(View view) {
-        Intent i = new Intent(this,home.class);
+    public void regresar5(View view) {
+        Intent i = new Intent(this,iniciar_sesion.class);
         startActivity(i);
     }
 
-    public void ingresarmeco(View view) {
-        Intent i = new Intent(this, medidas_corporales.class);
+    public void registrarse(View view) {
+        Intent i = new Intent(this,home.class);
         startActivity(i);
     }
 }
