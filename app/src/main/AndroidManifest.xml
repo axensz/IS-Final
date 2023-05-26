@@ -17,7 +17,34 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
+            android:name=".rutinas"/>
+
+        <activity
             android:name=".cambiar_contrasena"/>
+
+        <activity
+            android:name=".crear_rutina"/>
+
+        <activity
+            android:name=".ejercicios"/>
+
+        <activity
+            android:name=".home"/>
+
+        <activity
+            android:name=".medidas_corporales"/>
+
+        <activity
+            android:name=".perfil"/>
+
+        <activity
+            android:name=".recuperar_contrasena"/>
+
+        <activity
+            android:name=".registrarse"/>
+
+        <activity
+            android:name=".ver_progreso"/>
 
         <activity
             android:name=".iniciar_sesion"
