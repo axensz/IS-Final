@@ -51,13 +51,30 @@
             tools:layout_editor_absoluteY="642dp" />
 
         <TextView
+            android:id="@+id/textView39"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:text="Grupo muscular a trabajar"
+            android:textColor="#FAFAFA"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="747dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="651dp" />
+
+        <TextView
             android:id="@+id/textView38"
             android:layout_width="123dp"
             android:layout_height="40dp"
             android:text="Grupo muscular a trabajar"
             android:textColor="#FAFAFA"
-            tools:layout_editor_absoluteX="238dp"
-            tools:layout_editor_absoluteY="750dp" />
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="747dp" />
 
         <TextView
             android:id="@+id/textView36"
@@ -86,6 +103,14 @@
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="438dp" />
 
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="447dp" />
+
         <EditText
             android:id="@+id/editTextTextPassword30"
             android:layout_width="157dp"
@@ -103,6 +128,22 @@
             android:textStyle="bold"
             tools:layout_editor_absoluteX="21dp"
             tools:layout_editor_absoluteY="229dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="237dp" />
 
         <TextView
             android:id="@+id/textView37"
@@ -139,6 +180,14 @@
             android:textStyle="bold"
             tools:layout_editor_absoluteX="216dp"
             tools:layout_editor_absoluteY="229dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="237dp" />
 
         <TextView
             android:id="@+id/textView34"
@@ -216,6 +265,23 @@
             tools:layout_editor_absoluteY="642dp" />
 
         <TextView
+            android:id="@+id/textView32"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:text="Grupo muscular a trabajar"
+            android:textColor="#FAFAFA"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="747dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="651dp" />
+
+        <TextView
             android:id="@+id/textView31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -244,6 +310,14 @@
             android:textColor="#FAFAFA"
             tools:layout_editor_absoluteX="44dp"
             tools:layout_editor_absoluteY="337dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/user_invert"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="445dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
