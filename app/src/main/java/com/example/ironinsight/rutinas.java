@@ -20,7 +20,7 @@ public class rutinas extends AppCompatActivity {
     }
 
     public void crearrutina(View view) {
-        Intent i = new Intent(this,iniciar_sesion.class);
+        Intent i = new Intent(this,crear_rutina.class);
         startActivity(i);
     }
 

@@ -14,7 +14,7 @@ public class medidas_corporales extends AppCompatActivity {
     }
 
     public void home(View view) {
-        Intent i = new Intent(this,home.class);
+        Intent i = new Intent(this,ver_progreso.class);
         startActivity(i);
     }
 

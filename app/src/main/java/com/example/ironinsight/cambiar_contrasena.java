@@ -32,4 +32,9 @@ public class cambiar_contrasena extends AppCompatActivity {
         String contraseñaNueva = editTextContraseñaNueva.getText().toString();
         String repetirContraseña = editTextRepetirContraseña.getText().toString();
     }
+
+    public void recuperarcontraseña1(View view) {
+        Intent i = new Intent(this, recuperar_contrasena.class);
+        startActivity(i);
+    }
 }

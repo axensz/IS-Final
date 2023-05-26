@@ -23,4 +23,9 @@ public class registrarse extends AppCompatActivity {
         Intent i = new Intent(this,home.class);
         startActivity(i);
     }
+
+    public void iniciarsesion1(View view) {
+        Intent i = new Intent(this, iniciar_sesion.class);
+        startActivity(i);
+    }
 }

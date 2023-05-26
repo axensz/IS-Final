@@ -54,15 +54,6 @@
         app:layout_constraintVertical_bias="0.517"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:background="@drawable/screenshot_2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="30dp" />
-
     <EditText
         android:id="@+id/editTextTextPassword13"
         android:layout_width="300dp"

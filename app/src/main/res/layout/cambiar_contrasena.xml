@@ -25,7 +25,7 @@
         android:id="@+id/button3"
         android:layout_width="144dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="#5F68C1"
         android:fontFamily="@font/montserrat"
@@ -33,26 +33,25 @@
         android:text="Actualizar"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.996" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangleView" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="148dp"
         android:fontFamily="@font/inter"
+        android:onClick="recuperarcontraseña1"
         android:text="¿Has olvidado tu contraseña? Recuperar contraseña"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.261" />
 
     <EditText
         android:id="@+id/editTextTextPassword5"
@@ -149,11 +148,9 @@
         android:layout_height="2dp"
         android:layout_marginTop="584dp"
         android:background="#5F68C1"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
