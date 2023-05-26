@@ -9,14 +9,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#000000"
-        tools:layout_editor_absoluteX="-129dp"
-        tools:layout_editor_absoluteY="-84dp">
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lalezar"
+            android:text="IronInsight"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.416" />
 
         <EditText
             android:id="@+id/editTextTextPassword10"
             android:layout_width="300dp"
             android:layout_height="52dp"
-            android:layout_marginBottom="68dp"
+            android:layout_marginBottom="88dp"
             android:background="@drawable/edittext_border"
             android:backgroundTint="#005F68C1"
             android:ems="10"
@@ -29,99 +44,44 @@
             android:textSize="17sp"
             app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword19"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintHorizontal_bias="0.369"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword19"
-            android:layout_width="164dp"
-            android:layout_height="46dp"
-            android:background="@drawable/edittext_border"
-            android:backgroundTint="#005F68C1"
-            android:ems="10"
-            android:fontFamily="@font/montserrat_light"
-            android:hint="Calorias quemadas:"
-            android:inputType="text|textPersonName"
-            android:paddingStart="0dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.17"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="530dp" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword20"
-            android:layout_width="164dp"
-            android:layout_height="46dp"
-            android:background="@drawable/edittext_border"
-            android:backgroundTint="#005F68C1"
-            android:ems="10"
-            android:fontFamily="@font/montserrat_light"
-            android:hint="Repeticiones:"
-            android:inputType="text|textPersonName"
-            android:paddingStart="0dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.17"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="576dp" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword21"
-            android:layout_width="164dp"
-            android:layout_height="46dp"
-            android:background="@drawable/edittext_border"
-            android:backgroundTint="#005F68C1"
-            android:ems="10"
-            android:fontFamily="@font/montserrat_light"
-            android:hint="Series"
-            android:inputType="text|textPersonName"
-            android:paddingStart="0dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.17"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword20" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:layout_marginTop="28dp"
             android:background="@drawable/screenshot_2"
             android:onClick="regresar3"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintHorizontal_bias="0.053"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.471" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="146dp"
-            android:layout_height="40dp"
+            android:layout_width="245dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="96dp"
             android:background="@drawable/custom_button"
             android:backgroundTint="#5F68C1"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/montserrat_semibold"
             android:onClick="crearrutina"
-            android:text="Agregar Rutina"
+            android:text="Agregar a la rutina"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword21" />
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/editTextTextPassword11"
-            android:layout_width="300dp"
-            android:layout_height="52dp"
-            android:layout_marginBottom="8dp"
+            android:layout_width="298dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/edittext_border"
             android:backgroundTint="#005F68C1"
             android:ems="10"
@@ -132,16 +92,16 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            app:layout_constraintBottom_toBottomOf="@+id/rectangleView6"
+            app:layout_constraintBottom_toTopOf="@+id/rectangleView6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintHorizontal_bias="0.362"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="Nombre del ejercicio:"
             android:textColor="#FFFFFF"
@@ -149,26 +109,70 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword11"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.193"
+            app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toStartOf="parent" />
 
         <View
             android:id="@+id/rectangleView6"
             android:layout_width="350dp"
             android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
             android:background="#5F68C1"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="391dp" />
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
+            android:layout_width="132dp"
+            android:layout_height="164dp"
+            android:layout_marginBottom="88dp"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/user_invert" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword19"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_border"
+            android:backgroundTint="#5F68C1"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_light"
+            android:hint="Número de repeticiones"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword20"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="644dp"
+            android:background="@drawable/edittext_border"
+            android:backgroundTint="#5F68C1"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_light"
+            android:hint="Número de series"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/user_invert" />
+            app:layout_constraintVertical_bias="0.49" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
