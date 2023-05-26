@@ -9,13 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#000000"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteX="-129dp"
+        tools:layout_editor_absoluteY="-84dp">
 
         <EditText
             android:id="@+id/editTextTextPassword10"
             android:layout_width="300dp"
             android:layout_height="52dp"
+            android:layout_marginBottom="68dp"
             android:background="@drawable/edittext_border"
             android:backgroundTint="#005F68C1"
             android:ems="10"
@@ -26,8 +27,10 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="417dp" />
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/editTextTextPassword19"
@@ -43,8 +46,10 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="537dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="530dp" />
 
         <EditText
             android:id="@+id/editTextTextPassword20"
@@ -60,7 +65,9 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            tools:layout_editor_absoluteX="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="576dp" />
 
         <EditText
@@ -77,17 +84,22 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="610dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword20" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="35dp"
             android:layout_height="35dp"
+            android:layout_marginTop="28dp"
             android:background="@drawable/screenshot_2"
             android:onClick="regresar3"
-            tools:layout_editor_absoluteX="21dp"
-            tools:layout_editor_absoluteY="28dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button2"
@@ -96,17 +108,20 @@
             android:background="@drawable/custom_button"
             android:backgroundTint="#5F68C1"
             android:fontFamily="@font/montserrat"
-            android:text="Agregar Rutina"
             android:onClick="crearrutina"
+            android:text="Agregar Rutina"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            tools:layout_editor_absoluteX="138dp"
-            tools:layout_editor_absoluteY="675dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword21" />
 
         <EditText
             android:id="@+id/editTextTextPassword11"
             android:layout_width="300dp"
             android:layout_height="52dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/edittext_border"
             android:backgroundTint="#005F68C1"
             android:ems="10"
@@ -117,20 +132,25 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="17sp"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="326dp" />
+            app:layout_constraintBottom_toBottomOf="@+id/rectangleView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
             android:fontFamily="@font/lalezar"
             android:text="Nombre del ejercicio:"
             android:textColor="#FFFFFF"
             android:textFontWeight="700"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="273dp" />
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.193"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <View
             android:id="@+id/rectangleView6"
@@ -144,9 +164,11 @@
             android:id="@+id/imageView5"
             android:layout_width="105dp"
             android:layout_height="130dp"
-            app:srcCompat="@drawable/user_invert"
-            tools:layout_editor_absoluteX="153dp"
-            tools:layout_editor_absoluteY="56dp" />
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user_invert" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

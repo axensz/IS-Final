@@ -10,46 +10,52 @@
         android:id="@+id/textView5"
         android:layout_width="151dp"
         android:layout_height="46dp"
+        android:layout_marginStart="36dp"
         android:fontFamily="@font/lalezar"
         android:text="Rutinas"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextSizeCheck"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="362dp" />
+        tools:layout_editor_absoluteY="364dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
         android:fontFamily="@font/lalezar"
         android:text="Progreso"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="229dp"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="362dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="252dp"
         android:layout_height="41dp"
+        android:layout_marginTop="76dp"
         android:fontFamily="@font/lalezar"
         android:text="Ultimas rutinas"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
-        tools:ignore="TextSizeCheck"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="78dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
         android:id="@+id/editTextTextPassword5"
         android:layout_width="150dp"
         android:layout_height="136dp"
+        android:layout_marginStart="28dp"
         android:background="@drawable/edittext_border"
         android:backgroundTint="#5F68C1"
         android:ems="10"
@@ -60,7 +66,7 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="29dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="422dp" />
 
     <EditText
@@ -85,6 +91,7 @@
         android:id="@+id/editTextTextPassword2"
         android:layout_width="352dp"
         android:layout_height="191dp"
+        android:layout_marginTop="23dp"
         android:background="@drawable/edittext_border"
         android:backgroundTint="#5F68C1"
         android:ems="10"
@@ -95,8 +102,12 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="140dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/textView"
@@ -142,9 +153,13 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        tools:ignore="DuplicateSpeakableTextCheck"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.12"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -165,8 +180,9 @@
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextSizeCheck"
-        tools:layout_editor_absoluteX="123dp"
         tools:layout_editor_absoluteY="569dp" />
 
 
