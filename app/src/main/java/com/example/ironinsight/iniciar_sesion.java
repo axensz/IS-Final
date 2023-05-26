@@ -22,4 +22,9 @@ public class iniciar_sesion extends AppCompatActivity {
         Intent i = new Intent(this, recuperar_contrasena.class);
         startActivity(i);
     }
+
+    public void registrarse1(View view) {
+        Intent i = new Intent(this, registrarse.class);
+        startActivity(i);
+    }
 }
