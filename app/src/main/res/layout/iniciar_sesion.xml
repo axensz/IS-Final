@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,37 +10,48 @@
         android:id="@+id/rectangleView10"
         android:layout_width="290dp"
         android:layout_height="1dp"
+        android:layout_marginBottom="28dp"
         android:background="#5F68C1"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="454dp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="158dp"
         android:layout_height="44dp"
+        android:layout_marginBottom="48dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="#5F68C1"
         android:fontFamily="@font/montserrat"
+        android:onClick="iniciarsesion"
         android:text="Iniciar Sesión"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        android:onClick="iniciarsesion"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="474dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
         android:fontFamily="@font/lalezar"
         android:text="IronInsight"
         android:textColor="#FFFFFF"
         android:textFontWeight="900"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="108dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -47,14 +59,15 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:background="@drawable/screenshot_2"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="30dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="30dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword13"
         android:layout_width="300dp"
         android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
         android:background="@drawable/edittext_border"
         android:backgroundTint="#5F68C1"
         android:ems="10"
@@ -64,14 +77,16 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="254dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPassword14"
         android:layout_width="300dp"
         android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/edittext_border"
         android:backgroundTint="#5F68C1"
         android:ems="10"
@@ -81,39 +96,34 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="324dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:text="¿Olvidaste tu contraseña?"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="405dp"
+        app:layout_constraintBottom_toTopOf="@+id/rectangleView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿Aún no tienes cuenta? "
+        android:layout_marginBottom="148dp"
+        android:text="¿Aún no tienes cuenta? Registrarse"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="565dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrarse"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="565dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
